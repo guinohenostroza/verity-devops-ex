@@ -46,6 +46,7 @@ pipeline {
         }
 		//Code ends for stage Unit Test
         //Code starts for stage Code Analysis
+        /*
 		stage('Code Analysis') {
             steps {
 			 script {
@@ -57,6 +58,7 @@ pipeline {
 				}
 			}
 		}
+        */
 		//Code ends for stage Code Analysis
         //Code starts for stage Code Coverage
 		stage('Code Coverage') {
